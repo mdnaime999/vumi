@@ -1,0 +1,315 @@
+.top-wrapper .top-r {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.p-top-bar .top-l{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 50px; */
+}
+.p-top-bar .top-l .breadcrumb {
+    margin: 0rem;
+
+}
+.top-wrapper .top-r img {
+    max-width: 35px;
+    max-height: 55px;
+    margin-right: 15px;
+}
+
+.top-l .search-p {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    max-width: 400px;
+}
+
+.top-l .search-p .form-control {
+    height: 40px;
+    border: 1px solid #FE3C3A;
+    border-radius: 10px;
+    position: relative;
+    padding-left: 20px;
+    color: #717171;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.top-l .search-p .cmn-btn-red {
+    height: 40px;
+    background: #FE3C3A;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: #fff;
+    border:1px solid #FE3C3A;
+}
+
+.top-l .search-p .input-group-btn {
+    position: absolute;
+    right: 0px;
+    z-index: 9;
+}
+
+.top-l .select-p>select.form-control {
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    appearance: auto;
+}
+/* price */
+
+.filter-wrapper {
+    position: relative;
+}
+
+.price-field {
+    position: relative;
+    width: 100%;
+    height: 36px;
+    padding-top: 15px;
+    border-radius: 3px;
+}
+
+.price-field input[type=range] {
+    position: absolute;
+}
+/* Reset style for input range */
+
+.price-field input[type=range] {
+    /* width: 188px; */
+    width: 100%;
+    height: 2px;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    pointer-events: none;
+    -webkit-appearance: none;
+}
+
+.price-field input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+.price-field input[type=range]:active,
+.price-field input[type=range]:focus {
+    outline: 0;
+}
+
+.price-field input[type=range]::-ms-track {
+    width: 188px;
+    height: 2px;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    pointer-events: none;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+    border-radius: 5px;
+}
+/* Style toddler input range */
+
+.price-field input[type=range]::-webkit-slider-thumb {
+    /* WebKit/Blink */
+    position: relative;
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    height: 15px;
+    width: 2px;
+    margin-top: -7px;
+    background-color: #FE3C3A;
+    cursor: pointer;
+    pointer-events: all;
+    z-index: 100;
+}
+
+.price-field input[type=range]::-moz-range-thumb {
+    /* Firefox */
+    position: relative;
+    appearance: none;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    height: 15px;
+    width: 2px;
+    margin-top: -7px;
+    background-color: #FE3C3A;
+    cursor: pointer;
+    pointer-events: all;
+    z-index: 100;
+}
+
+.price-field input[type=range]::-ms-thumb {
+    /* IE */
+    position: relative;
+    appearance: none;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    height: 15px;
+    width: 2px;
+    margin-top: -7px;
+    background-color: #FE3C3A;
+    cursor: pointer;
+    pointer-events: all;
+    z-index: 100;
+}
+/* Style track input range */
+
+.price-field input[type=range]::-webkit-slider-runnable-track {
+    /* WebKit/Blink */
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    background: #FE3C3A;
+    border-radius: 5px;
+}
+
+.price-field input[type=range]::-moz-range-track {
+    /*Firefox*/
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    background: #FE3C3A;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.price-field input[type=range]::-ms-track {
+    /* IE */
+    width: 188px;
+    height: 2px;
+    cursor: pointer;
+    background: #FE3C3A;
+    border-radius: 5px;
+}
+/* Style for input value block */
+
+.price-wrap {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 1.2em;
+    font-weight: 400;
+    margin-bottom: 7px;
+  }
+  
+  .price-wrap-1, 
+  .price-wrap-2 {
+    display: inline-block;
+  }
+  
+  .price-title {
+    margin-right: 5px;
+    backgrund: #d58e32;
+  }
+  
+  .price-wrap_line {
+    margin: 0 10px;
+  }
+  
+  .price-wrap #one, 
+  .price-wrap #two {
+    width: 30px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    margin-right: 2px;
+    background:  0;
+    border: 0;
+    outline: 0;
+    font-family: 'Karla', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.2em;
+    font-weight: 400;
+  }
+  
+  .price-wrap label {
+    text-align: right;
+  }
+/* Style for active state input */
+
+.price-field input[type=range]:hover::-webkit-slider-thumb {
+    box-shadow: 0 0 0 0.5px #fff;
+    transition-duration: 0.3s;
+}
+
+.price-field input[type=range]:active::-webkit-slider-thumb {
+    box-shadow: 0 0 0 0.5px #fff;
+    transition-duration: 0.3s;
+}
+.price-title{
+    color:#717171;
+}
+.select-p> select{
+    border-bottom: 1px solid #FE3C3A;
+    padding-bottom: 2px;
+}
+.product-wrappper .arrival-wrapper .single-comic .c-title{
+    color: var(--s-primary-color);
+}
+.product-wrappper .arrival-wrapper .page-item {
+    margin-right: 10px;
+}
+.product-wrappper .arrival-wrapper .page-item .page-link {
+    color: var(--text-color);
+    width: 40px;
+}
+.product-wrappper .arrival-wrapper .page-item .page-link.active {
+    background: var(--s-primary-color);
+    color: var(--white);
+}
+/* https: //codepen.io/sln/pen/bqzRMq */
+
+
+
+/* for loading */
+
+#loading{	
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height:100%;
+    display: none;
+    background: rgba(0,0,0,0.6);
+  }
+  .cv-spinner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+  .spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px #ddd solid;
+    border-top: 4px #2e93e6 solid;
+    border-radius: 50%;
+    animation: sp-anime 0.8s infinite linear;
+  }
+  @keyframes sp-anime {
+    100% { 
+      transform: rotate(360deg); 
+    }
+  }
+  .is-hide{
+    display:none;
+  }
+  .author-name .t18{
+      font-size: 16px;
+  }

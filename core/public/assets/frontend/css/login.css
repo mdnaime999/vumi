@@ -1,0 +1,213 @@
+   /* header & footer css */
+   /*
+==========================================
+   01. login CSS
+==========================================
+*/
+   
+   .log-t {
+       font-weight: 600;
+       font-size: 30px;
+       color: #231F20;
+   }
+   
+   .log-s-t p {
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 25px;
+       color: #8692A6;
+   }
+   
+   .login-wrapper form .fa-eye, .login-wrapper form .fa-eye-slash {
+       cursor: pointer;
+       position: absolute;
+       right: 11px;
+       top: 33%;
+       color: #DADADA;
+   }
+   
+   .login-wrapper .form-control,
+   .login-wrapper .form-control:focus {
+       border: 1px solid #8692A6;
+   }
+   
+   .login-wrapper form div>label {
+       margin-bottom: 15px;
+   }
+   
+   .login-wrapper form .terms label {
+       font-weight: 500;
+       font-size: 14px;
+       line-height: 21px;
+       color: #696F79;
+   }
+   
+   .login-wrapper form .terms label:before {
+       background-color: var(--s-primary-color);
+   }
+   
+   .login-wrapper form .terms input:checked+label:after {
+       border: solid var(--white);
+       border-width: 0 2px 2px 0;
+   }
+   
+   .login-wrapper .forget-p {
+       font-weight: 500;
+       font-size: 14px;
+       line-height: 21px;
+       color: #FE3C3A;
+   }
+   
+   .login-wrapper .log-btn {
+       font-weight: 500;
+       font-size: 16px;
+       color: #FFFFFF; 
+       background-color: #FE3C3A;
+       padding: 10px;
+       text-align: center;
+       display: block; 
+       border-radius: 6px;
+       width: 100%;
+   }
+   
+   .login-wrapper .an-account p {
+       font-weight: 500;
+       font-size: 16px;
+       text-align: center;
+   }
+   
+   .login-wrapper .an-account p span {
+       color: #696F79;
+   }
+   
+   .login-wrapper .an-account p a:hover {
+       color: #FE3C3A;
+   }
+   
+   .login-page img.shape-img-1 {
+       position: fixed;
+       width:34%;
+       right: 0;
+       bottom: 0px;
+       z-index: -1;
+   }
+
+   .shape-img-1 {
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+    z-index: -1;
+    max-width: 30%;
+}
+
+.spder2-lgo img {
+    position: fixed;
+    right: 10%;
+    bottom: 25px;
+    max-width: 400px;
+    width: 100%;
+}
+.shopantik_login form{
+    width: 100%;
+}
+.shape-img {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    max-width: 30%;
+}
+.login-wrapper .e-email-a {
+    padding: 20px 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.login-wrapper .e-email-a input.form-control {
+    padding-left: 35px;
+    border: 1px solid #FE3C3A;
+}
+.login-wrapper .e-email-a .fa-eye {
+    left: 11px;
+    right: auto;
+    top: 32px;
+}
+
+.login-wrapper .e-btn {
+    width: 51px;
+    height: 51px;
+    background: #FE3C3A;
+    box-shadow: 0px 10px 26px rgb(231 96 71 / 47%);
+    border-radius: 50%;
+}
+   
+   .login-page img.shape-img {
+       position: absolute;
+       width:34%;
+       left: 0;
+       z-index: -1;
+   }
+
+   label.error{
+       color:red;
+       font-size: 14px;
+   }
+   /* .login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+} */
+   /* .shape-t img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.shape-b img{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+} */
+
+/* ajax loader css */
+#overlay {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .cv-spinner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px #ddd solid;
+    border-top: 4px #2e93e6 solid;
+    border-radius: 50%;
+    animation: sp-anime 0.8s infinite linear;
+  }
+  .shopantik_login {
+    display: flex;
+    height: calc(100vh - 80px);
+    align-items: center;
+}
+@media (min-width: 320px) and (max-width: 992px) {
+    .spder2-lgo img{
+        display: none;
+    }
+}
+.sign-pass .fa-eye-slash,.sign-pass .fa-eye{
+    top:63%!important;
+}
+.signup-logo{
+    float: right;
+    text-align: right;
+}

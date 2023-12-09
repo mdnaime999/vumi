@@ -1,0 +1,70 @@
+.table td, .table th {
+    padding: 7px!important;
+    text-align: center!important;
+    color:#fff;
+}
+.table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 1px!important;
+    font-family: Roboto;
+}
+
+.form-control,.form-control:focus{
+    height: 32px!important;
+    border-radius: 0!important;
+    color:#fff;
+    font-size: 14px!important;
+}
+
+.custom-file-label,.form-control-file,.custom-file,.custom-file-label::after{
+    height: 32px!important;
+    border-radius: 0!important;
+}
+.card-title{
+    font-size:16px!important;
+    color:#fff!important;
+}
+.card-header {
+    padding: 0.55rem 1.25rem!important;
+}
+label:not(.form-check-label):not(.custom-file-label) {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form-group label{
+    margin-bottom: .4rem!important;
+}
+label.error{
+    color: red!important;
+    font-size: 13px;
+    font-family: roboto;
+}
+.select2-container .select2-selection--single {
+    height: 36px!important;
+}
+
+@media only screen and (min-width:1024px) {
+    .modal-dialog{
+        max-width:750px!important;
+    }
+}
+
+.content-header h1{
+    font-size: 20px!important;
+    color:#fff!important;
+}
+.table thead th {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 500;
+}
+#list_wrapper .form-control{
+    height:27px!important;
+}
+
+.page-item.disabled .page-link {
+    background-color: transparent!important;
+}
+.required-star{
+    color: red;
+}

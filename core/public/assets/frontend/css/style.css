@@ -1,0 +1,284 @@
+    .h-banner .banner-title {
+        font-weight: 600;
+        font-size: 18px;
+        color: var(--white);
+        line-height: 1.5;
+    }
+    
+    .h-banner .banner-title>span {
+        display: block;
+        color: var(--white);
+    }
+    
+    .home-slider.owl-theme .owl-dots {
+        position: absolute;
+        top: 50%;
+        transform: translatey(-50%);
+        left: 4%;
+    }
+    
+    .home-slider.owl-theme .owl-dots .owl-dot {
+        display: block;
+    }
+    /*
+==========================================
+  comic CSS
+==========================================
+*/
+    
+    .single-comic {
+        text-align: center;
+        padding: 20px 20px;
+        background: var(--white);
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+        border: 1px solid transparent;
+        position: relative;
+        overflow: hidden;
+        z-index: 11;
+    }
+    
+    .comic-wrapper .single-comic .book-title {
+        position: relative;
+        margin-top: -35px;
+    }
+    
+    .single-comic.active,
+    .single-comic:hover {
+        border: 1px solid #FE3C3A;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    }
+    /*
+    ==========================================
+    fav-book CSS
+    ==========================================
+    */
+    
+    .fav-book {
+        background: linear-gradient(180deg, #FE3C3A 0%, #A31413 100%);
+        clip-path: polygon(0 3%, 100% 0%, 100% 100%, 0 97%);
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    
+    .fav-book .fav-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .fav-book .fav-content .book-title .title {
+        color: var(--white);
+    }
+    /* arrival */
+    
+    .arrival-wrapper .single-comic.active .bg-overlay,
+    .arrival-wrapper .single-comic:hover .bg-overlay {
+        right: 0;
+        bottom: 0;
+        opacity: 1;
+        transform: scale(10) translateZ(0);
+    }
+    
+    .img-hover-bg {
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        z-index: 111;
+        margin-bottom: 20px;
+    }
+    
+    .arrival-wrapper .single-comic .video-p {
+        opacity: 0;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+    }
+    
+    .arrival-wrapper .single-comic.active .video-p,
+    .arrival-wrapper .single-comic:hover .video-p {
+        opacity: 1;
+    }
+
+    /* Product cart */
+    
+    .product-cart .new-spot .card-header {
+        background: transparent;
+        border-bottom: 2px solid #DADADA;
+        position: relative;
+        padding: 0;
+        padding-bottom: 15px;
+    }
+    
+    .product-cart .new-spot .card-header::before {
+        content: '';
+        position: absolute;
+        left: 0px;
+        bottom: -2px;
+        width: 20%;
+        height: 2px;
+        background: #FE3C3A;
+    }
+    
+    .product-cart .new-spot .card .list-group-item {
+        padding: 1.3rem 0px;
+        border-bottom: 2px solid #DADADA;
+    }
+
+    /* about us */
+    
+    .about-title {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 60px;
+        color: #FE3C3A;
+        position: relative;
+        border-bottom: 4px solid #231F20;
+        display: inline-block;
+    }
+    
+    .about-title::before {
+        content: '';
+        position: absolute;
+        left: -20px;
+        top: -15px;
+        width: 80px;
+        height: 80px;
+        background: rgba(255, 232, 32, 0.19);
+        border-radius: 50%;
+    }
+    
+    .count-area .count-num h4 {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+    
+    .count-area .count-num p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    
+    .count-area .single-text {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .count-banner {
+        position: relative;
+    }
+    
+    .count-banner .cunt-l {
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .count-banner .cunt-r {
+        position: absolute;
+        right: 0;
+        top: -15%;
+    }
+    
+    .best-area {
+        position: relative;
+    }
+    
+    .best-area .movie-acs {
+        position: absolute;
+        top: 5%;
+        z-index: -1;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .best-area .movie-acs img {
+        width: 100%;
+        display: inline-block;
+    }
+    
+    .product-cart .list-group-flush>.list-group-item:last-child {
+        border-bottom-width: 0;
+        border-bottom: none;
+    }
+    
+    .product-cart .new-spot .trailer-img {
+        max-width: 400px;
+    }
+    
+    .product-cart {
+        padding: 10px 20px 30px 20px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px 0px #00000033;
+    }
+    
+    .product-cart .new-spot .card {
+        background: transparent;
+        box-shadow: none;
+    }
+    
+    .product-cart .new-spot .card .buy-btn .cmn-btn-red {
+        padding: 10px 20px;
+    }
+    
+    .product-cart .new-spot .trailer-img img {
+        width: 76px;
+        height: 108px;
+    }
+    
+    .product-cart .new-spot .t-delete {
+        background: transparent;
+        padding: 0px;
+    }
+    
+    .process .price-r .pr-title h5 {
+        display: flex;
+        justify-content: space-between;
+        gap: 25px;
+    }
+    
+    .process .price-r .pr-title {
+        width: 250px;
+        max-width: 250px;
+    }
+    
+    .process .price-r {
+        display: flex;
+        justify-content: space-between;
+        gap: 25px;
+    }
+    
+    .process .terms input:checked+label {
+        color: initial;
+    }
+    
+    .process .terms label a {
+        color: #E81A21;
+    }
+    
+    .process .terms label br {
+        display: none;
+    }
+    
+    .cart-name .title{
+        font-size: 20px!important;
+    }
+    
+    .books-img img{
+        max-height:300px;
+    }
+    button.mfp-arrow, .mfp-counter{
+        opacity:1!important;
+    }
+
+    
+    
+    

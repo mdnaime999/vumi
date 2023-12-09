@@ -1,0 +1,146 @@
+@media (min-width: 1199px) {
+    .com-bor-btn,
+    .cmn-btn-red {
+        padding: 9px 30px;
+    }
+    .home-slider.owl-theme .owl-dots {
+        left: 16%;
+    }
+    .h-banner {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 97%);
+           min-height: calc(100vh - 90px);
+    }
+    .h-banner .banner-title {
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1367px) {
+    .home-slider.owl-theme .owl-dots {
+        left: 10%;
+    }
+    .product-page .t18 {
+        font-size: 15px;
+    }
+    .price-wrap label {
+        font-size: 15px;
+    }
+}
+@media (min-width: 1300px) and (max-width: 1700px) {
+    .home-slider.owl-theme .owl-dots {
+        left: 10%;
+    }
+}
+
+/* Medium Layout: 1280px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .home-slider.owl-theme .owl-dots {
+        left: 7%;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .com-bor-btn,
+    .cmn-btn-red {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+    .title {
+        font-size: 16px;
+    }
+    .s-heading {
+        font-size: 30px;
+    }
+}
+@media (min-width: 320px) and (max-width: 991px) {
+    .f-link-h.add{
+        width:40%;
+    }
+}
+@media (min-width: 320px) and (max-width: 991px) {
+    /* common css */
+    /* home-slider */
+    .banner-heading {
+        padding-left: 45px;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media (max-width: 767px) {
+    .com-bor-btn,
+    .cmn-btn-red {
+        font-size: 13px;
+    }
+    .spi-lgo{
+        display: none;
+    }
+    .mobile-margin .dropdown-menu{
+        padding: 0;
+    }
+    .profile.dropdown .dropdown-menu[data-bs-popper]{
+        margin-top:22px;
+    }
+    .h-cart .dropdown-menu{
+        left:-122px!important;
+    }
+    .cart_data{
+        max-width: 300px;
+        width: 300px;
+    }
+    .cunt-l,.cunt-r{
+        display: none;
+    }
+    .mfp-arrow-left:after {
+        border-right: 30px solid #f4eaea!important;
+    }
+    .mfp-arrow:after {
+        border-top-width: 30px!important;
+        border-bottom-width: 30px!important;
+    }
+    .single-comic-page .slick-next{
+        right:0!important;
+        top:40%!important;
+    }
+    .single-comic-page .slick-prev{
+        left:0!important;
+        top:40%!important;
+    }
+    .mfp-with-zoom.mfp-ready.mfp-bg{
+        height:100%!important;
+    }
+    .t18,
+    .title {
+        font-size: 15px;
+    }
+    .s-heading {
+        font-size: 22px;
+    }
+    .single-comic {
+        padding: 20px 20px;
+    }
+    .sec-margin-top {
+        margin-top: 30px;
+    }
+    /* fav book */
+    .fav-book .fav-content .book-title {
+        position: relative;
+        margin-top: -35px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .f-row-reverse {
+        flex-direction: column-reverse;
+    }
+}
